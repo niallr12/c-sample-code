@@ -1,0 +1,14 @@
+﻿<Window x:Class="PracticeWPF.MainWindow" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        Title="MainWindow" Height="350" Width="525">
+    <!--x:Class="PracticeWPF.MainWindow", tells XAML parser to generate a new class with the specified name. That class derives from the class that's
+    named by the XML element (i.e. MainWindow). The MainWindow class is generated automatically at compile time-->
+    <!-- xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" this is the XAML namespace, This namespace is mapped to the prefix x. This means it can be 
+    applied by placing it before the element name E.G. x:ElementName-->
+    <!-- xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation", core WPF namespace. Encompasses all WPF classes-->
+    <!--Window, This is the top level Window element, remeber each property (title, height, width) corressponds to a seperate property in the Windows class-->
+    <Grid x:Name="grid1"> <!--same as <Grid Name="grid1"-->
+        
+    </Grid>
+</Window>

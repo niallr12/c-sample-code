@@ -1,0 +1,17 @@
+﻿<Window x:Class="PracticeWPF.CustomNamespaces"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="CustomNamespaces" Height="300" Width="300">
+    <ListBox>
+        <ListBoxItem>
+            <sys:DateTime>10/13/2013 4:30 PM</sys:DateTime>
+        </ListBoxItem>
+        <ListBoxItem>
+            <sys:DateTime>10/30/2013 2:30 PM</sys:DateTime>
+        </ListBoxItem>
+        <ListBoxItem>
+            <sys:DateTime>10/29/2013 12:30 PM</sys:DateTime>
+        </ListBoxItem>
+    </ListBox>
+</Window>
